@@ -1,0 +1,134 @@
+body{
+    background-color: #ffff;
+    margin: 0;
+    top: 0;
+}
+
+#header{
+    background-color: #970747;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    font-family: RALEWAY;
+    color: #ffff;
+    font-size: 2em;
+   
+}
+
+#header a{
+    color: #ffff;
+    text-decoration: none;
+    margin: 20px;
+    font-size: .5em;
+}
+
+#header a:hover{
+    text-decoration: underline;
+}
+
+#header .active{
+    text-decoration: underline;
+}
+
+
+
+#isapangdiv{
+    display: inline-block;
+    background-color: #970747;
+    border-radius: 9999px;
+    padding: 25px;
+}
+
+#isapangdiv a{
+    margin: 20px;
+    color: #ffff;
+    text-align: center;
+    font-family: raleway;
+    text-decoration: none;
+}
+.gallery{
+    max-width: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.container{
+    display: flex;
+    
+    width: 200vh;
+    flex-direction: row;
+
+}
+
+.gallery img:hover{
+    border: #970747 solid 2px;
+}
+
+.gallery img{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+#isapangdiv a:hover{
+    text-decoration: underline;
+}
+
+#isapangdiv .active{
+    text-decoration: underline;
+}
+
+#abt h1{
+    color: #970747;
+    text-align: center;
+    font-family: raleway;
+
+}
+
+#abt pre{
+    text-align: center;
+    font-family: raleway;
+}
+
+#abt h2{
+    text-align: center;
+    font-family: raleway;
+}
+
+#abt{
+    text-align: center;
+    font-family: raleway;
+    font-size: 1.5em;
+}
+
+ul{
+    list-style-position: inside;
+
+}
+
+li{
+    text-align: center;
+}
+
+#cnt{
+    text-align: center;
+    font-family: raleway;
+    font-size: 1.5em;
+    color: #970747;
+
+}
+
+
+.contacts img{
+    
+    height: 200px;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+.contacts img:hover{
+    border: #970747 solid 2px;
+}
